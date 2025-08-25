@@ -1,0 +1,76 @@
+
+body {
+    background-color: rgb(163, 219, 200);
+    padding-top: 120px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    background-color: rgb(21, 59, 47);
+    border: 2px solid #fbfdfb;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 0 20px 5px #eeeeee;
+}
+
+
+h1 {
+    color: cadetblue;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+button {
+    background-color: rgba(208, 198, 217, 0.47);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+#playerName {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.quiz {
+    text-align: center;
+    background-color: rgb(21, 59, 47);
+    box-shadow:
+        rgba(0, 0,)
+}
